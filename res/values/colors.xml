@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_text">#000000</color>
+    <color name="delta_up">#00d800</color>
+    <color name="delta_down">#d80000</color>
+    <color name="delta_no_change">#a0a0a0</color>
+</resources>

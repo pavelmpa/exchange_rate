@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+        <TextView
+                android:id="@+id/currency_tag"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textSize="22sp"
+                android:padding="5dp"
+                android:textColor="@color/main_text"/>
+        <TextView
+                android:id="@+id/buy"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/currency_tag"
+                android:textSize="18sp"
+                android:textColor="@color/main_text"/>
+        <TextView
+                android:id="@+id/buy_delta"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buy"
+                android:textSize="18sp"/>
+        <TextView
+                android:id="@+id/sale"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/currency_tag"
+                android:layout_below="@id/buy"
+                android:textSize="18sp"
+                android:textColor="@color/main_text"/>
+        <TextView
+                android:id="@+id/sale_delta"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buy"
+                android:layout_below="@id/buy"
+                android:textSize="18sp"/>
+
+</RelativeLayout>

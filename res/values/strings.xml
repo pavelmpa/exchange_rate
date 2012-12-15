@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Exchange Rate</string>
+    <string name="load_rates">Load currency rates</string>
 </resources>
